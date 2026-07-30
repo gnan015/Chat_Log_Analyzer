@@ -1,0 +1,6 @@
+com\videep\chatlog\AnalysisResult.class
+com\videep\chatlog\ChatLogAnalyzer$FraudCheck.class
+com\videep\chatlog\ChatLogAnalyzer.class
+com\videep\chatlog\WebServer.class
+com\videep\chatlog\ChatLogNormalizer.class
+com\videep\chatlog\Main.class

@@ -1,0 +1,11 @@
+:root { --navy: #14213d; --blue: #3268d6; --ice: #f5f8ff; }
+body { background: var(--ice); color: #172033; }
+.hero { background: linear-gradient(135deg, var(--navy), var(--blue)); box-shadow: 0 1rem 2.5rem rgba(20, 33, 61, .18); }
+.card { border-radius: 1rem; }
+textarea.form-control { resize: vertical; border-color: #d8dfef; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9rem; }
+.table thead th { color: #667085; font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; }
+.metric-card { border-left: 4px solid var(--blue); }
+.metric-value { color: var(--navy); font-size: 1.5rem; font-weight: 700; }
+.message-preview { display: block; max-width: 280px; max-height: 4.5em; overflow: hidden; white-space: pre-wrap; word-break: break-word; }
+.alert-row { background: #fff8ed; }
+code { color: #6e2da3; }

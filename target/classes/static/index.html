@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chat Log Analyzer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="container py-5">
+    <section class="hero mb-4 p-4 p-md-5 rounded-4 text-white">
+      <p class="text-uppercase small fw-semibold mb-2">Java full-stack project</p>
+      <h1 class="display-5 fw-bold mb-3">Chat Log Analyzer</h1>
+      <p class="lead mb-0">Turn unstructured messages into useful activity and content insights.</p>
+    </section>
+
+    <div class="row g-4">
+      <section class="col-lg-5">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-body p-4">
+            <h2 class="h4 fw-bold">Chat input</h2>
+            <p class="text-secondary small">Paste messages or import a WhatsApp <code>.txt</code> export.</p>
+            <label for="fileInput" class="form-label small fw-semibold mb-1">Chat export file</label>
+            <input id="fileInput" class="form-control form-control-sm mb-2" type="file" accept=".txt,text/plain">
+            <p id="fileStatus" class="small text-secondary mb-3">Supported: WhatsApp exports and <code>[HH:MM] Name: Message</code> logs.</p>
+            <label for="chatInput" class="visually-hidden">Chat messages</label>
+            <textarea id="chatInput" class="form-control mb-3" rows="15" placeholder="[09:00] Alice: Hello team"></textarea>
+            <div class="d-flex gap-2 flex-wrap">
+              <button id="analyzeButton" class="btn btn-primary px-4">Analyze chat</button>
+              <button id="sampleButton" class="btn btn-outline-secondary">Load sample</button>
+              <button id="clearButton" class="btn btn-link text-decoration-none">Clear</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-lg-7">
+        <div id="emptyState" class="card shadow-sm border-0 h-100 text-center justify-content-center p-5">
+          <div class="display-6 mb-3">⌁</div>
+          <h2 class="h4">Ready for analysis</h2>
+          <p class="text-secondary mb-0">Add chat messages to view activity, duplicate spam flags, and fraud-risk warnings.</p>
+        </div>
+        <div id="results" class="d-none">
+          <div class="row g-3 mb-3" id="metrics"></div>
+          <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="h4 fw-bold mb-0">Analysis results</h2>
+                <div class="d-flex align-items-center gap-3">
+                  <label class="form-check form-switch small mb-0"><input id="alertsOnly" class="form-check-input" type="checkbox"> Show only alerts</label>
+                  <span id="resultCount" class="badge text-bg-light"></span>
+                </div>
+              </div>
+              <div class="table-responsive">
+                <table class="table align-middle mb-0">
+                  <thead><tr><th>User</th><th>Message</th><th>Messages</th><th>Words</th><th>Spam</th><th>Fraud risk &amp; reason</th><th>Most active</th></tr></thead>
+                  <tbody id="resultRows"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
