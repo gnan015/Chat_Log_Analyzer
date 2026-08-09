@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.videep.chatlog.ChatLogAnalyzerTest" time="0.005" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.videep.chatlog.ChatLogAnalyzerTest" time="0.007" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-17.0.18.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\grand\AppData\Local\Temp\surefire11486939045435987340\surefirebooter-20260730100303907_3.jar C:\Users\grand\AppData\Local\Temp\surefire11486939045435987340 2026-07-30T10-03-03_795-jvmRun1 surefire-20260730100303907_1tmp surefire_0-20260730100303907_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\grand\AppData\Local\Temp\surefire4843107929363299141\surefirebooter-20260809180005863_3.jar C:\Users\grand\AppData\Local\Temp\surefire4843107929363299141 2026-08-09T18-00-05_690-jvmRun1 surefire-20260809180005863_1tmp surefire_0-20260809180005863_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Projects\Chat_Log_Analyzer\target\test-classes;C:\Projects\Chat_Log_Analyzer\target\classes;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\grand\AppData\Local\Temp\surefire11486939045435987340\surefirebooter-20260730100303907_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\grand\AppData\Local\Temp\surefire4843107929363299141\surefirebooter-20260809180005863_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.18+8-LTS"/>

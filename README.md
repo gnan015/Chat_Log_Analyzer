@@ -14,10 +14,10 @@ For every valid message, the analyzer reports the sender, cumulative message cou
 
 ```powershell
 mvn package
-java -jar target/chat-log-analyzer-1.0.4.jar
+java -jar target/chat-log-analyzer-1.0.5.jar
 ```
 
-Then open `http://localhost:8080` in a browser. If port 8080 is already occupied, choose another port, such as `java -jar target/chat-log-analyzer-1.0.4.jar 8081`, then open `http://localhost:8081`. Paste chat messages, or use the included sample, and select **Analyze chat**. The frontend uses HTML, CSS, JavaScript, and Bootstrap; the Java backend serves the page and processes `POST /api/analyze` requests.
+Then open `http://localhost:8080` in a browser. If port 8080 is already occupied, choose another port, such as `java -jar target/chat-log-analyzer-1.0.5.jar 8081`, then open `http://localhost:8081`. Paste chat messages, or use the included sample, and select **Analyze chat**. The frontend uses HTML, CSS, JavaScript, and Bootstrap; the Java backend serves the page and processes `POST /api/analyze` requests.
 
 ## Import a WhatsApp chat export
 

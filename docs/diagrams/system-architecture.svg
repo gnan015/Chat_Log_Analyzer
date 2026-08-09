@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+  <style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:32px;font-weight:700}.box{fill:#f8fafc;stroke:#2563eb;stroke-width:2;rx:16}.core{fill:#dbeafe;stroke:#1d4ed8;stroke-width:3;rx:16}.out{fill:#ecfdf5;stroke:#059669;stroke-width:2;rx:16}.label{font-size:20px;font-weight:600}.sub{font-size:16px}.line{stroke:#334155;stroke-width:2.5;marker-end:url(#a)}</style>
+  <rect width="1600" height="900" fill="white"/><text x="800" y="60" text-anchor="middle" class="title">Chat Log Analyzer - System Architecture</text>
+  <rect x="70" y="360" width="190" height="100" class="box"/><text x="165" y="405" text-anchor="middle" class="label">User</text><text x="165" y="432" text-anchor="middle" class="sub">Uploads or pastes chat</text>
+  <rect x="340" y="320" width="250" height="180" class="box"/><text x="465" y="370" text-anchor="middle" class="label">Web Interface</text><text x="465" y="400" text-anchor="middle" class="sub">HTML, CSS, JavaScript</text><text x="465" y="425" text-anchor="middle" class="sub">Bootstrap</text>
+  <rect x="670" y="320" width="250" height="180" class="core"/><text x="795" y="370" text-anchor="middle" class="label">Java Backend</text><text x="795" y="400" text-anchor="middle" class="sub">HTTP API</text><text x="795" y="425" text-anchor="middle" class="sub">WhatsApp normalizer</text>
+  <rect x="1000" y="320" width="250" height="180" class="core"/><text x="1125" y="370" text-anchor="middle" class="label">Chat Log Analyzer</text><text x="1125" y="400" text-anchor="middle" class="sub">Parses valid messages</text>
+  <line x1="260" y1="410" x2="340" y2="410" class="line"/><line x1="590" y1="410" x2="670" y2="410" class="line"/><line x1="920" y1="410" x2="1000" y2="410" class="line"/>
+  <rect x="930" y="620" width="180" height="90" class="out"/><text x="1020" y="660" text-anchor="middle" class="label">Message Count</text><text x="1020" y="686" text-anchor="middle" class="sub">Per user</text>
+  <rect x="1140" y="620" width="180" height="90" class="out"/><text x="1230" y="660" text-anchor="middle" class="label">Spam Detector</text><text x="1230" y="686" text-anchor="middle" class="sub">Repeated messages</text>
+  <rect x="1350" y="620" width="180" height="90" class="out"/><text x="1440" y="650" text-anchor="middle" class="label">Fraud Detector</text><text x="1440" y="676" text-anchor="middle" class="sub">Links, OTP, urgency</text>
+  <line x1="1080" y1="500" x2="1020" y2="620" class="line"/><line x1="1125" y1="500" x2="1230" y2="620" class="line"/><line x1="1170" y1="500" x2="1440" y2="620" class="line"/>
+  <rect x="580" y="740" width="320" height="90" class="out"/><text x="740" y="780" text-anchor="middle" class="label">JSON Results and Alerts</text><text x="740" y="807" text-anchor="middle" class="sub">Message, risk reason, spam status</text>
+  <line x1="1020" y1="710" x2="900" y2="780" class="line"/><line x1="1230" y1="710" x2="900" y2="785" class="line"/><line x1="1350" y1="710" x2="900" y2="800" class="line"/><line x1="580" y1="785" x2="465" y2="500" class="line"/>
+</svg>

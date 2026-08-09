@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1300" viewBox="0 0 1200 1300">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+  <style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:30px;font-weight:700}.box{fill:#f8fafc;stroke:#2563eb;stroke-width:2;rx:16}.decision{fill:#fef3c7;stroke:#d97706;stroke-width:2}.alert{fill:#fff1f2;stroke:#e11d48;stroke-width:2;rx:16}.result{fill:#ecfdf5;stroke:#059669;stroke-width:2;rx:16}.label{font-size:19px;font-weight:600}.line{stroke:#334155;stroke-width:2.5;marker-end:url(#a)}.note{font-size:15px}</style>
+  <rect width="1200" height="1300" fill="white"/><text x="600" y="55" text-anchor="middle" class="title">Chat Log Analyzer - Workflow</text>
+  <rect x="470" y="90" width="260" height="65" class="box"/><text x="600" y="130" text-anchor="middle" class="label">Open Website</text>
+  <polygon points="600,205 730,270 600,335 470,270" class="decision"/><text x="600" y="277" text-anchor="middle" class="label">Choose Input</text>
+  <rect x="170" y="390" width="280" height="70" class="box"/><text x="310" y="432" text-anchor="middle" class="label">Paste Chat Text</text>
+  <rect x="750" y="390" width="280" height="70" class="box"/><text x="890" y="432" text-anchor="middle" class="label">Upload WhatsApp .txt</text>
+  <rect x="470" y="530" width="260" height="70" class="box"/><text x="600" y="572" text-anchor="middle" class="label">Normalize Chat Format</text>
+  <polygon points="600,655 730,720 600,785 470,720" class="decision"/><text x="600" y="727" text-anchor="middle" class="label">Valid Message?</text>
+  <rect x="850" y="690" width="270" height="70" class="alert"/><text x="985" y="722" text-anchor="middle" class="label">Ignore System Notice</text><text x="985" y="745" text-anchor="middle" class="note">or report invalid entry</text>
+  <rect x="470" y="840" width="260" height="75" class="box"/><text x="600" y="874" text-anchor="middle" class="label">Extract User and Message</text><text x="600" y="899" text-anchor="middle" class="note">Use timestamp and sender</text>
+  <rect x="380" y="970" width="440" height="95" class="box"/><text x="600" y="1007" text-anchor="middle" class="label">Analyze Message</text><text x="600" y="1034" text-anchor="middle" class="note">Count words, update activity, check spam and fraud</text>
+  <rect x="390" y="1140" width="420" height="80" class="result"/><text x="600" y="1174" text-anchor="middle" class="label">Display Results and Alerts</text><text x="600" y="1201" text-anchor="middle" class="note">Message preview, fraud reason, spam status</text>
+  <line x1="600" y1="155" x2="600" y2="205" class="line"/><line x1="510" y1="315" x2="310" y2="390" class="line"/><line x1="690" y1="315" x2="890" y2="390" class="line"/><line x1="310" y1="460" x2="520" y2="530" class="line"/><line x1="890" y1="460" x2="680" y2="530" class="line"/><line x1="600" y1="600" x2="600" y2="655" class="line"/><line x1="730" y1="720" x2="850" y2="720" class="line"/><text x="780" y="705" class="note">No</text><line x1="600" y1="785" x2="600" y2="840" class="line"/><text x="615" y="815" class="note">Yes</text><line x1="600" y1="915" x2="600" y2="970" class="line"/><line x1="600" y1="1065" x2="600" y2="1140" class="line"/>
+</svg>
