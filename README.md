@@ -42,7 +42,7 @@ From the project folder:
 
 ```cmd
 mvn package
-java -jar target\chat-log-analyzer-1.0.5.jar 8081
+java -jar target\chat-log-analyzer-1.0.6.jar 8081
 ```
 
 Open [http://localhost:8081](http://localhost:8081) in a browser.
@@ -50,7 +50,7 @@ Open [http://localhost:8081](http://localhost:8081) in a browser.
 If port `8081` is unavailable, choose another unused port:
 
 ```cmd
-java -jar target\chat-log-analyzer-1.0.5.jar 8090
+java -jar target\chat-log-analyzer-1.0.6.jar 8090
 ```
 
 Then open [http://localhost:8090](http://localhost:8090).
